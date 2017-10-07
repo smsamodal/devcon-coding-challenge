@@ -1,4 +1,4 @@
-# Maze
+# Garden Traverse
 
 ![maze](http://www.livingasean.com/wp-content/uploads/2016/11/fea-1.jpg)
 
@@ -7,7 +7,7 @@ One of the properties that **onerent** manages includes a number of garden mazes
 A maze will have all of it's walls are connected to each other. Take this example maze segment.
 ```
 # # ### #
-# #      
+# #
 # ### G #
 #   # G #
 # G # G #
