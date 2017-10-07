@@ -1,6 +1,6 @@
 # Almost Matching
 
-Kevin is working on implementing a search feature for a website. The search function should be able to find words even if they do not exactly match. Help Kevin by writing a function that compares two strings if they almost match.
+Kevin is working on implementing a search feature for a website. The search function should be able to find words even if they do not exactly match. Help Kevin by writing a function that compares two strings to check if they almost match.
 
 ## Input
 Two strings, where:
@@ -9,37 +9,39 @@ Two strings, where:
 
 The challenge is to return `True` if there exists a substitution of `*`s in both strings that make the 2 strings identical.
 
-### Sample Input 1
+### Sample 1
+#### Input
 ```
 Shakes*e
 S*speare
 ```
-
-### Sample Output 1
+#### Output
 ```
 True
 ```
 The 1st string can replace `*` with `pear` and the 2nd string can replace `*` with `hake`
 
-### Sample Input 2
+### Sample 2
+#### Input
 ```
 a*baa**ba**aa
 *ca*b**a*baac
 ```
 
-### Sample Output 2
+#### Output
 ```
 False
 ```
 We can quickly determine that it's `false`, since the first string cannot be made to end in c.
 
-### Sample Input 3
+### Sample 3
+#### Input
 ```
 a*baa**ba**aa
 *ca*b**a*baaa
 ```
 
-### Sample Output 3
+#### Output
 ```
 True
 ```

@@ -21,7 +21,7 @@ Formal Inputs and Outputs
 
 ## Input
 
-You will be given two numbers W and H. After that you will be given a textual ASCII grid, W wide and H tall, of walls `#` and `spaces`. In the maze there will be exactly one letter ``S`` and exactly one letter `E`. There will be no spaces leading to the outside of the maze - ie. it will be fully walled in.
+You will be given two numbers W and H. After that you will be given a textual ASCII grid, `W` wide and `H` tall, of walls `#` and `spaces`. In the maze there will be exactly one letter ``S`` and exactly one letter `E`. There will be no spaces leading to the outside of the maze - ie. it will be fully walled in.
 
 ## Output
 

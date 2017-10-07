@@ -1,6 +1,6 @@
 # Rectangles
 
-The area of a single rectangle is equal to the it's width multiplied by it's height.
+The *area* of a single rectangle is equal to the it's *width* multiplied by it's *height*.
 
 ![no overlap](http://i.imgur.com/IefYcFj.png)
 
@@ -12,6 +12,7 @@ Once you get to 3 rectangles, there are multiple possibilities: no intersections
 
 At that point it becomes impractical to account for each situation individually but it might be possible. But what about 4 rectangles? 5 rectangles? N rectangles?
 
+## Goals
 Given any number of rectangles and their position/dimensions, find the area of the resultant overlapping (combined) shape.
 
 ## Input
